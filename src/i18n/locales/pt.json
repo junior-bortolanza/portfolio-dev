@@ -1,0 +1,29 @@
+{
+  "nav": {
+    "home": "Início",
+    "about": "Sobre",
+    "projects": "Projetos",
+    "contact": "Contato"
+  },
+
+  "hero": {
+    "title": "Olá, eu sou o Junior",
+    "subtitle": "Desenvolvedor Back-End",
+    "description": "Desenvolvedor Back-End com vasta experiência em Python (FastAPI) e Java (Spring Boot), focado na criação de APIs escaláveis, integrações de alto desempenho e sistemas prontos para a nuvem.",
+    "viewProjects": "Ver Projetos",
+    "contact": "Fale Comigo",
+    "cv": "Baixar CV"
+  },
+
+"about": {
+  "title": "Sobre Mim",
+  "text": "Desenvolvedor Back-End com experiência prática na criação de projetos pessoais e reais usando Python (FastAPI) e Java (Spring Boot). Desenvolvi 19 pontos finais REST, implementei várias operações CRUD do MongoDB e apliquei a Arquitetura Limpa, os princípios SOLID e o Padrão Repositório. Experiente em modelagem de entidades, transações, paginação, DTOs, validação e testes automatizados. Focado em fornecer sistemas back-end escaláveis e sustentáveis e em evoluir continuamente como parte de equipas de engenharia de alto desempenho.",
+  "titleEducation": "Educação",
+    "subtitle_1": "Técnico em Análise e Desenvolvimento de Sistemas – Uninter (2024–2026)",
+    "subtitle_2": "Java Spring Professional: Spring Boot, JPA/Hibernate, REST APIs, Security (OAuth2/JWT), Docker, Docker Compose, and CI/CD pipelines.",
+    "subtitle_3": "Curso de formação em Python: Flask, arquitetura MVC, autenticação JWT, MongoDB, Redis, RabbitMQ, comunicação em tempo real e melhores práticas de backend.",
+    "workExperience": "Experiência profissional",
+    "experience_1": "Engenheiro de Software – ABC Corp (2025–Presente) Desenvolvi e mantive microsserviços para aplicações baseadas na nuvem.",
+    "experience_2": "Estagiário – DEF Startups (2022) Auxiliou na construção de componentes front-end e integração de APIs REST."
+}
+}

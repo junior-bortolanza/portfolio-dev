@@ -1,0 +1,30 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+
+  "hero": {
+    "title": "Hi, I'm Junior",
+    "subtitle": "Back-End Developer",
+    "description": "Back-End Developer with strong experience in Python (FastAPI) and Java (Spring Boot), focused on building scalable APIs, high-performance integrations, and cloud-ready systems.",
+    "viewProjects": "View Projects",
+    "contact": "Contact Me",
+    "cv": "Download CV"
+  },
+
+  "about": {
+    "title": "About Me",
+    "text": "Back-End Developer with hands-on experience building personal and real-world projects using Python (FastAPI) and Java (Spring Boot). I have developed 19 REST endpoints, implemented multiple MongoDB CRUD operations, and applied Clean Architecture, SOLID principles, and Repository Pattern. Experienced in entity modeling, transactions, pagination, DTOs, validation, and automated testing. Focused on delivering scalable, maintainable backend systems and continuously evolving as part of high-performance engineering teams.",
+    "titleEducation": "Education",
+    "subtitle_1": "Systems Analysis and Development Technologist – Uninter (2024–2026)",
+    "subtitle_2": "Java Spring Professional: Spring Boot, JPA/Hibernate, REST APIs, Security (OAuth2/JWT), Docker, Docker Compose, and CI/CD pipelines.",
+    "subtitle_3": "Python Training Course: Flask, MVC architecture, JWT authentication, MongoDB, Redis, RabbitMQ, real-time communication, and backend best practices.",
+    "workExperience": "Work Experience",
+    "experience_1": "Software Engineer – ABC Corp (2025–Present), Developed and maintained microservices for cloud-based applications.",
+    "experience_2": "Intern – DEF Startups (2022) Assisted in building front-end components and integrating REST APIs."
+
+  }
+}
