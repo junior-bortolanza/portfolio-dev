@@ -23,8 +23,32 @@
     "subtitle_2": "Java Spring Professional: Spring Boot, JPA/Hibernate, REST APIs, Security (OAuth2/JWT), Docker, Docker Compose, and CI/CD pipelines.",
     "subtitle_3": "Python Training Course: Flask, MVC architecture, JWT authentication, MongoDB, Redis, RabbitMQ, real-time communication, and backend best practices.",
     "workExperience": "Work Experience",
-    "experience_1": "Software Engineer – ABC Corp (2025–Present), Developed and maintained microservices for cloud-based applications.",
-    "experience_2": "Intern – DEF Startups (2022) Assisted in building front-end components and integrating REST APIs."
+    "experience_1_role": "Java Backend Developer",
+    "experience_1_meta": "Personal Projects | Mar 2024 – Present",
+    "experience_1_desc": "Built 13 REST endpoints with Spring Boot (CRUD, pagination, and sorting) and modeled 8+ JPA entities with complex relationships. Implemented security with Spring Security, OAuth2, and JWT, applying layered architecture, DTOs, and centralized exception handling.",
+    "experience_2_role": "Python Backend Developer",
+    "experience_2_meta": "Personal Projects | May 2024 – Present",
+    "experience_2_desc": "Built 4+ applications with Flask and FastAPI, covering 30+ REST endpoints with business rules and validations. Applied Clean Architecture and SOLID principles, managed SQLite and PostgreSQL databases, and implemented Redis caching for performance optimization.",
+    "experience_3_role": "Senior Systems Analyst",
+    "experience_3_meta": "Komanda F5 | Jan 2026 – Mar 2026 | Dubai (Remote)",
+    "experience_3_desc": "Led technical analysis and CRM implementations for international clients, architecting automations, API integrations, and workflows. Served as technical reference for analysts and clients, supporting SaaS pre-sales. Results: +20% commercial efficiency and −10% operational time.",
+    "experience_4_role": "Mid-level Systems Analyst",
+    "experience_4_meta": "Komanda F5 | Apr 2025 – Jan 2026",
+    "experience_4_desc": "Consulted on CRM implementation, configuring pipelines, automations, and commercial workflows. Developed API-based system integrations and chatbots, supporting projects with WhatsApp API and Instagram. Delivered client presentations and trained new analysts.",
+    "experience_5_role": "Junior Systems Analyst",
+    "experience_5_meta": "Komanda F5 | Dec 2024 – Apr 2025",
+    "experience_5_desc": "Participated in CRM implementation and configuration, including pipelines, automations, and chatbots. Supported API integrations, documented processes, and conducted client onboarding. Developed a technical case presented to leadership."
+  },
 
-  }
+  "projects": {
+    "title": "Projects",
+    "featured_project": "⭐ Featured Project",
+    "title_featured_project": "RESTful API for client management built with Java and Spring Boot, featuring full CRUD operations, layered architecture, DTOs, data validation, and centralized exception handling.",
+      "subtitle_1": "Técnico em Análise e Desenvolvimento de Sistemas – Uninter (2024–2026)",
+      "subtitle_2": "Java Spring Professional: Spring Boot, JPA/Hibernate, REST APIs, Security (OAuth2/JWT), Docker, Docker Compose, and CI/CD pipelines.",
+      "subtitle_3": "Curso de formação em Python: Flask, arquitetura MVC, autenticação JWT, MongoDB, Redis, RabbitMQ, comunicação em tempo real e melhores práticas de backend.",
+      "workExperience": "Experiência profissional",
+      "experience_1": "Engenheiro de Software – ABC Corp (2025–Presente) Desenvolvi e mantive microsserviços para aplicações baseadas na nuvem.",
+      "experience_2": "Estagiário – DEF Startups (2022) Auxiliou na construção de componentes front-end e integração de APIs REST."
+}
 }

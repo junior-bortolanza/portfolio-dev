@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 
 export const About = () => {
   const { t } = useTranslation();
-  const frontendSkils = ["HTML", "Css", "JavScript", "React"];
+  const frontendSkills = ["HTML", "CSS", "React"];
 
   const backendSkills = [
     "Python",
@@ -40,7 +40,7 @@ export const About = () => {
               <div className="mb-6">
                 <h3 className="text-xl font-bold mb-3">Front-end</h3>
                 <div className="flex flex-wrap gap-2">
-                  {frontendSkils.map((tech) => (
+                  {frontendSkills.map((tech) => (
                     <span
                       key={tech}
                       className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm
@@ -79,6 +79,7 @@ export const About = () => {
                     <strong>{t("about.subtitle_1")}</strong>
                   </li>
 
+
                   <li>
                     <b>{t("about.subtitle_2")}</b>
                   </li>
@@ -92,20 +93,14 @@ export const About = () => {
               <div className="p-6 rounded-xl">
                 <h3 className="text-xl font-bold mb-4">{t("about.workExperience")}</h3>
 
-                <div className="space-y-4 text-gray-300">
-                  <div>
-                    <h4 className="font-semibold">
-                      {t("about.experience_1")}
-                    </h4>
-                    
-                  </div>
-
-                  <div>
-                    <h4 className="font-semibold">
-                      {t("about.experience_2")}
-                    </h4>
-                    
-                  </div>
+                <div className="space-y-5 text-gray-300">
+                  {[1, 2, 3, 4, 5].map((i) => (
+                    <div key={i} className="border-l-2 border-blue-500/30 pl-4">
+                      <h4 className="font-semibold">{t(`about.experience_${i}_role`)}</h4>
+                      <p className="text-sm text-blue-400 mt-0.5">{t(`about.experience_${i}_meta`)}</p>
+                      <p className="text-sm mt-1">{t(`about.experience_${i}_desc`)}</p>
+                    </div>
+                  ))}
                 </div>
               </div>
 

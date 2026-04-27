@@ -61,7 +61,7 @@ export const Home = () => {
               </a>
 
               <a
-                href="./junior-bortolanza-cv.pdf"
+                href="./Gelson_Bortolanza_Junior_Backend_Java.pdf"
                 download
                 className="border border-white/20 text-white/80 py-3 px-6 rounded font-medium
                             transition hover:-translate-y-0.5
@@ -84,7 +84,7 @@ export const Home = () => {
               </a>
               
               <a
-                href="https://www.linkedin.com/in/junior-bortolanza"
+                href="https://www.linkedin.com/in/juniorbortolanza"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-blue-500 text-2xl
@@ -115,7 +115,7 @@ export const Home = () => {
               <div className="absolute inset-0 rounded-full bg-blue-500 blur-2xl opacity-20" />
 
               <img
-                src="/junior.jpg"
+                src="/image.jpg"
                 alt="Junior Tech"
                 className="relative w-72 h-72 md:w-80 md:h-80 rounded-full object-cover
                            border border-blue-500
