@@ -41,7 +41,13 @@
   "projects": {
     "title": "Projects",
     "featured_project": "⭐ Featured Project",
-    "title_featured_project": "RESTful API for client management built with Java and Spring Boot, featuring full CRUD operations, layered architecture, DTOs, data validation, and centralized exception handling."
+    "title_featured_project": "RESTful API for client management built with Java and Spring Boot, featuring full CRUD operations, layered architecture, DTOs, data validation, and centralized exception handling.",
+    "in_progress": "🚧 In Progress",
+    "task_scheduler_name": "Task Scheduler",
+    "task_scheduler_desc": "Microservices-based application for task scheduling and management, featuring asynchronous inter-service communication and distributed architecture.",
+    "dscatalog_name": "DSCatalog",
+    "dscatalog_desc": "Product catalog application with automated and unit tests covering all business rules, featuring full CRUD operations and layered architecture.",
+    "coming_soon": "Coming soon on GitHub"
   },
 
   "contact": {

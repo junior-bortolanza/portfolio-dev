@@ -41,7 +41,13 @@
   "projects": {
     "title": "Projetos",
     "featured_project": "⭐ Projeto destaque",
-    "title_featured_project": "API RESTful de e-commerce desenvolvida com Java e Spring Boot, com autenticação JWT, CRUD de produtos e pedidos, arquitetura em camadas e validação estruturada."
+    "title_featured_project": "API RESTful de e-commerce desenvolvida com Java e Spring Boot, com autenticação JWT, CRUD de produtos e pedidos, arquitetura em camadas e validação estruturada.",
+    "in_progress": "🚧 Em Desenvolvimento",
+    "task_scheduler_name": "Agendador de Tarefas",
+    "task_scheduler_desc": "Aplicação baseada em microsserviços para agendamento e gerenciamento de tarefas, com comunicação assíncrona entre serviços e arquitetura distribuída.",
+    "dscatalog_name": "DSCatalog",
+    "dscatalog_desc": "Aplicação de catálogo de produtos com testes automatizados e unitários cobrindo todas as regras de negócio, com CRUD completo e arquitetura em camadas.",
+    "coming_soon": "Em breve no GitHub"
   },
 
   "contact": {
