@@ -8,47 +8,51 @@
 
   "hero": {
     "title": "Olá, eu sou o Junior",
-    "subtitle": "Backend Developer | Java (Spring Boot) | Python | APIs REST | AWS | PostgreSQL | Docker",
     "description": "Desenvolvedor Back-End com foco em Java (Spring Boot) e Python (FastAPI, Flask). Experiência na criação de APIs REST escaláveis, arquitetura limpa, integração entre sistemas e boas práticas de desenvolvimento backend.",
     "viewProjects": "Ver Projetos",
-    "contact": "Fale Comigo",
-    "cv": "Baixar CV"
+    "contact": "Fale Comigo"
   },
 
   "about": {
-  "title": "Sobre Mim",
-  "text": "Desenvolvedor Back-End com experiência prática na criação de aplicações utilizando Java (Spring Boot) e Python (FastAPI, Flask). Experiência no desenvolvimento de APIs REST, modelagem com JPA, implementação de segurança com Spring Security, OAuth2 e JWT, além da aplicação de Clean Architecture e princípios SOLID. Atuação anterior como Analista de Sistemas, com experiência em automações, integrações via API e implementação de CRM, incluindo projetos internacionais. Focado em construir sistemas back-end escaláveis, sustentáveis e bem estruturados.",
-  "titleEducation": "Educação",
-  "subtitle_1": "Tecnólogo em Análise e Desenvolvimento de Sistemas — UNINTER (2024–2026)",
-  "subtitle_2": "Java Spring Professional — DevSuperior (120h): Spring Boot, JPA, APIs REST, Spring Security, Docker e CI/CD",
-  "subtitle_3": "Formação Backend Python: FastAPI, Flask, PostgreSQL, MongoDB, Redis e RabbitMQ",
-  "workExperience": "Experiência Profissional",
-  "experience_1_role": "Desenvolvedor Backend Java",
-  "experience_1_meta": "Projetos Próprios | mar 2024 – atual",
-  "experience_1_desc": "Desenvolveu 13 endpoints REST com Spring Boot (CRUD, paginação e ordenação) e modelou 8+ entidades JPA com relacionamentos complexos. Implementou segurança com Spring Security, OAuth2 e JWT, aplicando arquitetura em camadas, DTOs e tratamento centralizado de exceções.",
-  "experience_2_role": "Desenvolvedor Backend Python",
-  "experience_2_meta": "Projetos Próprios | mai 2024 – atual",
-  "experience_2_desc": "Desenvolveu 4+ aplicações com Flask e FastAPI, totalizando 30+ endpoints REST com regras de negócio e validações. Aplicou Clean Architecture e SOLID, gerenciou bancos SQLite e PostgreSQL, e implementou cache com Redis para otimização de performance.",
-  "experience_3_role": "Analista de Sistemas Sênior",
-  "experience_3_meta": "Komanda F5 | jan 2026 – mar 2026 | Dubai (Remoto)",
-  "experience_3_desc": "Liderou análises técnicas e implementações de CRM para clientes internacionais, arquitetando automações, integrações via API e workflows. Atuou como referência técnica para analistas e clientes, apoiando pré-vendas SaaS. Resultados: +20% em eficiência comercial e −10% no tempo operacional.",
-  "experience_4_role": "Analista de Sistemas Pleno",
-  "experience_4_meta": "Komanda F5 | abr 2025 – jan 2026",
-  "experience_4_desc": "Atuou consultivamente na implementação de CRM, configurando pipelines, automações e fluxos comerciais. Desenvolveu integrações entre sistemas via APIs e chatbots, apoiando projetos com WhatsApp API e Instagram. Realizou treinamentos e apresentações de soluções para clientes.",
-  "experience_5_role": "Analista de Sistemas Jr",
-  "experience_5_meta": "Komanda F5 | dez 2024 – abr 2025",
-  "experience_5_desc": "Participou da implementação e configuração de CRM, incluindo criação de pipelines, automações e chatbots. Apoiou integrações via API, documentou processos e realizou onboarding técnico de clientes. Desenvolveu um case técnico apresentado à liderança."
-},
+    "title": "Sobre Mim",
+    "text": "Desenvolvedor Back-End com experiência prática na criação de aplicações utilizando Java (Spring Boot) e Python (FastAPI, Flask). Experiência no desenvolvimento de APIs REST, modelagem com JPA, implementação de segurança com Spring Security, OAuth2 e JWT, além da aplicação de Clean Architecture e princípios SOLID. Atuação anterior como Analista de Sistemas, com experiência em automações, integrações via API e implementação de CRM, incluindo projetos internacionais. Focado em construir sistemas back-end escaláveis, sustentáveis e bem estruturados.",
+    "titleEducation": "Educação",
+    "subtitle_1": "Tecnólogo em Análise e Desenvolvimento de Sistemas — UNINTER (2024–2026)",
+    "subtitle_2": "Java Spring Professional — DevSuperior (120h): Spring Boot, JPA, APIs REST, Spring Security, Docker e CI/CD",
+    "subtitle_3": "Formação Backend Python: FastAPI, Flask, PostgreSQL, MongoDB, Redis e RabbitMQ",
+    "workExperience": "Experiência Profissional",
+    "experience_1_role": "Desenvolvedor Backend Java",
+    "experience_1_meta": "Projetos Próprios | mar 2024 – atual",
+    "experience_1_desc": "Desenvolveu 13 endpoints REST com Spring Boot (CRUD, paginação e ordenação) e modelou 8+ entidades JPA com relacionamentos complexos. Implementou segurança com Spring Security, OAuth2 e JWT, aplicando arquitetura em camadas, DTOs e tratamento centralizado de exceções.",
+    "experience_2_role": "Desenvolvedor Backend Python",
+    "experience_2_meta": "Projetos Próprios | mai 2024 – atual",
+    "experience_2_desc": "Desenvolveu 4+ aplicações com Flask e FastAPI, totalizando 30+ endpoints REST com regras de negócio e validações. Aplicou Clean Architecture e SOLID, gerenciou bancos SQLite e PostgreSQL, e implementou cache com Redis para otimização de performance.",
+    "experience_3_role": "Analista de Sistemas Sênior",
+    "experience_3_meta": "Komanda F5 | jan 2026 – mar 2026 | Dubai (Remoto)",
+    "experience_3_desc": "Liderou análises técnicas e implementações de CRM para clientes internacionais, arquitetando automações, integrações via API e workflows. Atuou como referência técnica para analistas e clientes, apoiando pré-vendas SaaS. Resultados: +20% em eficiência comercial e −10% no tempo operacional.",
+    "experience_4_role": "Analista de Sistemas Pleno",
+    "experience_4_meta": "Komanda F5 | abr 2025 – jan 2026",
+    "experience_4_desc": "Atuou consultivamente na implementação de CRM, configurando pipelines, automações e fluxos comerciais. Desenvolveu integrações entre sistemas via APIs e chatbots, apoiando projetos com WhatsApp API e Instagram. Realizou treinamentos e apresentações de soluções para clientes.",
+    "experience_5_role": "Analista de Sistemas Jr",
+    "experience_5_meta": "Komanda F5 | dez 2024 – abr 2025",
+    "experience_5_desc": "Participou da implementação e configuração de CRM, incluindo criação de pipelines, automações e chatbots. Apoiou integrações via API, documentou processos e realizou onboarding técnico de clientes. Desenvolveu um case técnico apresentado à liderança."
+  },
 
   "projects": {
     "title": "Projetos",
     "featured_project": "⭐ Projeto destaque",
-    "title_featured_project": "API RESTful de e-commerce desenvolvida com Java e Spring Boot, com autenticação JWT, CRUD de produtos e pedidos, arquitetura em camadas e validação estruturada.",
-    "project_1_title": "API REST – Java Spring Boot",
-    "project_1_description": "Aplicação backend com 13 endpoints RESTful, operações CRUD, paginação e ordenação. Modelagem de 8+ entidades JPA com relacionamentos many-to-many e one-to-one, chave composta, enums e regras transacionais. Segurança com Spring Security, OAuth2 e JWT. Ambientes configurados com H2 (testes) e PostgreSQL/MySQL (produção).",
-    "project_1_stack": "Java 17 | Spring Boot | Spring Data JPA | Hibernate | Spring Security | OAuth2 | JWT | PostgreSQL | MySQL | H2 | Docker | Git",
-    "project_2_title": "API REST – Python FastAPI",
-    "project_2_description": "Múltiplas aplicações backend com mais de 30 endpoints REST, incluindo sistema de gestão de cadastros com regras de negócio, validações e tratamento de erros. Implementação de cache com Redis para redução de latência. Arquitetura em camadas seguindo Clean Architecture e SOLID.",
-    "project_2_stack": "Python | FastAPI | Flask | PostgreSQL | SQLite | Redis | Docker | Git | GitHub"
-}
+    "title_featured_project": "API RESTful de e-commerce desenvolvida com Java e Spring Boot, com autenticação JWT, CRUD de produtos e pedidos, arquitetura em camadas e validação estruturada."
+  },
+
+  "contact": {
+    "subtitle": "Vamos transformar sua ideia em realidade?",
+    "name_label": "Nome",
+    "name_placeholder": "Seu nome completo",
+    "email_label": "Email",
+    "message_label": "Mensagem",
+    "message_placeholder": "Me conte sobre seu projeto...",
+    "send": "✈️ Enviar Mensagem",
+    "success": "Mensagem enviada com sucesso! 🚀",
+    "error": "Erro ao enviar. Por favor, tente novamente."
+  }
 }

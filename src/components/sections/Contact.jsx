@@ -1,8 +1,10 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 import { RevealOnScroll } from "../RevealOnScroll";
 import emailjs from "emailjs-com";
 
 export const Contact = () => {
+  const { t } = useTranslation();
   const [formData, setFormData] = useState({
     from_name: "",
     email: "",
@@ -20,7 +22,7 @@ export const Contact = () => {
         import.meta.env.VITE_PUBLIC_KEY
       )
       .then(() => {
-        alert("Message sent successfully! 🚀");
+        alert(t("contact.success"));
         setFormData({
           from_name: "",
           email: "",
@@ -29,7 +31,7 @@ export const Contact = () => {
       })
       .catch((error) => {
         console.error("EmailJS error:", error);
-        alert("Error sending. Please try again.");
+        alert(t("contact.error"));
       });
   };
 
@@ -49,7 +51,7 @@ export const Contact = () => {
           </h2>
 
           <p className="text-gray-400 text-center mb-14">
-            Shall we turn your idea into reality?
+            {t("contact.subtitle")}
           </p>
 
           <div className="bg-white/5 rounded-2xl p-8 shadow-lg">
@@ -57,13 +59,13 @@ export const Contact = () => {
 
               {/* NOME */}
               <div>
-                <label className="text-sm text-gray-300">Name</label>
+                <label className="text-sm text-gray-300">{t("contact.name_label")}</label>
                 <input
                   type="text"
                   name="from_name"
                   required
                   value={formData.from_name}
-                  placeholder="Your full name"
+                  placeholder={t("contact.name_placeholder")}
                   className="w-full mt-2 px-4 py-3 rounded-lg
                              bg-white/10 text-white"
                   onChange={(e) =>
@@ -74,7 +76,7 @@ export const Contact = () => {
 
               {/* EMAIL */}
               <div>
-                <label className="text-sm text-gray-300">Email</label>
+                <label className="text-sm text-gray-300">{t("contact.email_label")}</label>
                 <input
                   type="email"
                   name="email"
@@ -91,13 +93,13 @@ export const Contact = () => {
 
               {/* MENSAGEM */}
               <div>
-                <label className="text-sm text-gray-300">Message</label>
+                <label className="text-sm text-gray-300">{t("contact.message_label")}</label>
                 <textarea
                   name="message"
                   rows={5}
                   required
                   value={formData.message}
-                  placeholder="Tell me about your project..."
+                  placeholder={t("contact.message_placeholder")}
                   className="w-full mt-2 px-4 py-3 rounded-lg
                              bg-white/10 text-white resize-none"
                   onChange={(e) =>
@@ -113,7 +115,7 @@ export const Contact = () => {
                            text-white py-3 rounded-lg
                            hover:opacity-90 transition"
               >
-                ✈️ Send Message
+                {t("contact.send")}
               </button>
             </form>
           </div>

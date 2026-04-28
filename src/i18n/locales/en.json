@@ -8,11 +8,9 @@
 
   "hero": {
     "title": "Hi, I'm Junior",
-    "subtitle": "Back-End Developer",
     "description": "Back-End Developer with strong experience in Python (FastAPI) and Java (Spring Boot), focused on building scalable APIs, high-performance integrations, and cloud-ready systems.",
     "viewProjects": "View Projects",
-    "contact": "Contact Me",
-    "cv": "Download CV"
+    "contact": "Contact Me"
   },
 
   "about": {
@@ -43,12 +41,18 @@
   "projects": {
     "title": "Projects",
     "featured_project": "⭐ Featured Project",
-    "title_featured_project": "RESTful API for client management built with Java and Spring Boot, featuring full CRUD operations, layered architecture, DTOs, data validation, and centralized exception handling.",
-      "subtitle_1": "Técnico em Análise e Desenvolvimento de Sistemas – Uninter (2024–2026)",
-      "subtitle_2": "Java Spring Professional: Spring Boot, JPA/Hibernate, REST APIs, Security (OAuth2/JWT), Docker, Docker Compose, and CI/CD pipelines.",
-      "subtitle_3": "Curso de formação em Python: Flask, arquitetura MVC, autenticação JWT, MongoDB, Redis, RabbitMQ, comunicação em tempo real e melhores práticas de backend.",
-      "workExperience": "Experiência profissional",
-      "experience_1": "Engenheiro de Software – ABC Corp (2025–Presente) Desenvolvi e mantive microsserviços para aplicações baseadas na nuvem.",
-      "experience_2": "Estagiário – DEF Startups (2022) Auxiliou na construção de componentes front-end e integração de APIs REST."
-}
+    "title_featured_project": "RESTful API for client management built with Java and Spring Boot, featuring full CRUD operations, layered architecture, DTOs, data validation, and centralized exception handling."
+  },
+
+  "contact": {
+    "subtitle": "Shall we turn your idea into reality?",
+    "name_label": "Name",
+    "name_placeholder": "Your full name",
+    "email_label": "Email",
+    "message_label": "Message",
+    "message_placeholder": "Tell me about your project...",
+    "send": "✈️ Send Message",
+    "success": "Message sent successfully! 🚀",
+    "error": "Error sending. Please try again."
+  }
 }
