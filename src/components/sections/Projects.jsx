@@ -58,7 +58,7 @@ export const Projects = () => {
               {/* IMAGEM */}
               <div className="flex justify-center items-center">
                 <img
-                  src="./public/swagger_dscommerce.png"
+                  src="/swagger_dscommerce.png"
                   alt="Featured Project"
                   className="rounded-xl shadow-2xl"
                 />
@@ -76,7 +76,7 @@ export const Projects = () => {
             <div className="bg-white/5 rounded-2xl p-6
                             hover:-translate-y-1 transition-all">
               <img
-                src="./public/api_clients.png"
+                src="/api_clients.png"
                 alt="Task Manager Pro"
                 className="rounded-xl mb-4"
               />
