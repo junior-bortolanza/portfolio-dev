@@ -47,7 +47,7 @@ export const Contact = () => {
           <h2 className="text-3xl font-bold mb-4 text-center
                          bg-gradient-to-r from-blue-500 to-cyan-400
                          bg-clip-text text-transparent">
-            &lt; Contact /&gt;
+            &lt; {t("nav.contact")} /&gt;
           </h2>
 
           <p className="text-gray-400 text-center mb-14">

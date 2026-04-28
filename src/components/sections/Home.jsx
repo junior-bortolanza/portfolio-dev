@@ -109,10 +109,10 @@ export const Home = () => {
           <div className="flex justify-center md:justify-end">
             <div className="relative">
               <div
-                className="absolute -inset-24 rounded-full
+                className="absolute -inset-24 rounded-full pointer-events-none
                            bg-[radial-gradient(circle,rgba(59,130,246,0.35),transparent_70%)]"
               />
-              <div className="absolute inset-0 rounded-full bg-blue-500 blur-2xl opacity-20" />
+              <div className="absolute inset-0 rounded-full bg-blue-500 blur-2xl opacity-20 pointer-events-none" />
 
               <img
                 src="/image.jpg"
