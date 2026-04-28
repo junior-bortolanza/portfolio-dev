@@ -8,7 +8,7 @@
 
   "hero": {
     "title": "Hi, I'm Junior",
-    "description": "Back-End Developer with strong experience in Python (FastAPI) and Java (Spring Boot), focused on building scalable APIs, high-performance integrations, and cloud-ready systems.",
+    "description": "Java Backend Developer | Spring Boot\n\nI build secure and scalable REST APIs with Spring Security (JWT/OAuth2), JPA, and PostgreSQL, applying Clean Architecture and SOLID principles. Secondary stack in Python (FastAPI, Flask) for automations and integrations.",
     "viewProjects": "View Projects",
     "contact": "Contact Me"
   },

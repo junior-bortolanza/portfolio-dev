@@ -8,7 +8,7 @@
 
   "hero": {
     "title": "Olá, eu sou o Junior",
-    "description": "Desenvolvedor Back-End com foco em Java (Spring Boot) e Python (FastAPI, Flask). Experiência na criação de APIs REST escaláveis, arquitetura limpa, integração entre sistemas e boas práticas de desenvolvimento backend.",
+    "description": "Desenvolvedor Backend Java | Spring Boot\n\nConstruo APIs REST seguras e escaláveis com Spring Security (JWT/OAuth2), JPA e PostgreSQL, aplicando Clean Architecture e SOLID. Stack secundária em Python (FastAPI, Flask) para automações e integrações.",
     "viewProjects": "Ver Projetos",
     "contact": "Fale Comigo"
   },

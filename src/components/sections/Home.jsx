@@ -35,9 +35,8 @@ export const Home = () => {
             </h1>
             
 
-            <p className="text-gray-300 text-lg mb-8 max-w-lg">
+            <p className="text-gray-300 text-lg mb-8 max-w-lg whitespace-pre-line">
               {t("hero.description")}
-              
             </p>
 
             <div className="flex justify-center md:justify-start gap-4 mb-6">

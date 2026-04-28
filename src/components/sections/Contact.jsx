@@ -30,8 +30,8 @@ export const Contact = () => {
         });
       })
       .catch((error) => {
-        console.error("EmailJS error:", error);
-        alert(t("contact.error"));
+        console.error("EmailJS error:", JSON.stringify(error));
+        alert(t("contact.error") + "\n\nDetalhes: " + (error?.text || error?.message || JSON.stringify(error)));
       });
   };
 
