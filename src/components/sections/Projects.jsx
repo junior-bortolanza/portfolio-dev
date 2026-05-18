@@ -104,16 +104,13 @@ export const Projects = () => {
                  className="text-blue-400 text-sm">{t("projects.view_github")}</a>
             </div>
 
-            {/* CARD 2 - Agendador de Tarefas */}
+            {/* CARD 2 - BFF + Microsserviços */}
             <div className="bg-white/5 rounded-2xl p-6
                             hover:-translate-y-1 transition-all">
-              <div className="flex items-center justify-between mb-4">
+              <div className="flex items-center mb-4">
                 <div className="w-12 h-12 rounded-xl bg-blue-500/10 flex items-center justify-center text-2xl">
                   🗓️
                 </div>
-                <span className="text-xs font-semibold text-amber-400 bg-amber-400/10 px-3 py-1 rounded-full">
-                  {t("projects.in_progress")}
-                </span>
               </div>
 
               <h3 className="text-lg font-bold mb-2">{t("projects.task_scheduler_name")}</h3>
@@ -123,14 +120,16 @@ export const Projects = () => {
               </p>
 
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Java", "Spring Boot", "Microservices", "RabbitMQ", "Docker"].map((tech) => (
+                {["Java", "Spring Boot", "Feign Client", "PostgreSQL", "MongoDB", "Docker"].map((tech) => (
                   <span key={tech} className="bg-blue-500/10 text-blue-400 px-2 py-1 rounded-full text-xs">
                     {tech}
                   </span>
                 ))}
               </div>
 
-              <span className="text-gray-500 text-sm">{t("projects.coming_soon")}</span>
+              <a
+                href="https://github.com/junior-bortolanza/bff-task-scheduler"
+                className="text-blue-400 text-sm">{t("projects.view_github")}</a>
             </div>
 
             {/* CARD 3 - DSCatalog */}
