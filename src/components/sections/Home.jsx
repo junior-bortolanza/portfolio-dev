@@ -68,7 +68,7 @@ export const Home = () => {
                             hover:shadow-[0_0_15px_rgba(59,130,246,0.2)]"
                 >
         
-                Download CV
+                {t("hero.downloadCV")}
               </a>
             </div>
 

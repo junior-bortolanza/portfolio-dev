@@ -31,7 +31,7 @@ export const Contact = () => {
       })
       .catch((error) => {
         console.error("EmailJS error:", JSON.stringify(error));
-        alert(t("contact.error") + "\n\nDetalhes: " + (error?.text || error?.message || JSON.stringify(error)));
+        alert(t("contact.error") + "\n\n" + t("contact.details") + " " + (error?.text || error?.message || JSON.stringify(error)));
       });
   };
 
@@ -82,7 +82,7 @@ export const Contact = () => {
                   name="email"
                   required
                   value={formData.email}
-                  placeholder="your@email.com"
+                  placeholder={t("contact.email_placeholder")}
                   className="w-full mt-2 px-4 py-3 rounded-lg
                              bg-white/10 text-white"
                   onChange={(e) =>

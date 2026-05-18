@@ -25,7 +25,7 @@ export const Projects = () => {
                 <span className="text-sm text-blue-400">{t("projects.featured_project")}</span>
 
                 <h3 className="text-2xl font-bold mt-2 mb-4">
-                  API REST DScommerce
+                  {t("projects.dscommerce_name")}
                 </h3>
 
                 <p className="text-gray-300 mb-6">
@@ -50,7 +50,7 @@ export const Projects = () => {
                     className="bg-blue-500 px-4 py-2 rounded-md text-white
                                hover:bg-blue-600 transition"
                   >
-                    Ver Código
+                    {t("projects.view_code")}
                   </a>
                 </div>
               </div>
@@ -81,10 +81,10 @@ export const Projects = () => {
                 className="rounded-xl mb-4"
               />
 
-              <h3 className="text-lg font-bold mb-2">API de Clientes</h3>
+              <h3 className="text-lg font-bold mb-2">{t("projects.api_clientes_name")}</h3>
 
               <p className="text-gray-300 text-sm mb-4">
-                API REST para gerenciamento de clientes desenvolvida com Java e Spring Boot, com CRUD completo, validações, tratamento de exceções e arquitetura em camadas.
+                {t("projects.api_clientes_desc")}
               </p>
 
               <div className="flex flex-wrap gap-2 mb-4">
@@ -101,7 +101,7 @@ export const Projects = () => {
 
               <a
                 href="https://github.com/junior-bortolanza/clientes"
-                 className="text-blue-400 text-sm">Ver no GitHub →</a>
+                 className="text-blue-400 text-sm">{t("projects.view_github")}</a>
             </div>
 
             {/* CARD 2 - Agendador de Tarefas */}

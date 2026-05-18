@@ -38,7 +38,7 @@ export const About = () => {
             
               {/* FRONTEND */}
               <div className="mb-6">
-                <h3 className="text-xl font-bold mb-3">Front-end</h3>
+                <h3 className="text-xl font-bold mb-3">{t("about.frontendTitle")}</h3>
                 <div className="flex flex-wrap gap-2">
                   {frontendSkills.map((tech) => (
                     <span
@@ -54,7 +54,7 @@ export const About = () => {
 
               {/* BACKEND */}
               <div>
-                <h3 className="text-xl font-bold mb-3">Backend</h3>
+                <h3 className="text-xl font-bold mb-3">{t("about.backendTitle")}</h3>
                 <div className="flex flex-wrap gap-2">
                   {backendSkills.map((tech) => (
                     <span

@@ -10,7 +10,8 @@
     "title": "Hi, I'm Junior",
     "description": "Java Backend Developer | Spring Boot\n\nI build secure and scalable REST APIs with Spring Security (JWT/OAuth2), JPA, and PostgreSQL, applying Clean Architecture and SOLID principles. Secondary stack in Python (FastAPI, Flask) for automations and integrations.",
     "viewProjects": "View Projects",
-    "contact": "Contact Me"
+    "contact": "Contact Me",
+    "downloadCV": "Download CV"
   },
 
   "about": {
@@ -20,6 +21,8 @@
     "subtitle_1": "Systems Analysis and Development Technologist – Uninter (2024–2026)",
     "subtitle_2": "Java Spring Professional: Spring Boot, JPA/Hibernate, REST APIs, Security (OAuth2/JWT), Docker, Docker Compose, and CI/CD pipelines.",
     "subtitle_3": "Python Training Course: Flask, MVC architecture, JWT authentication, MongoDB, Redis, RabbitMQ, real-time communication, and backend best practices.",
+    "frontendTitle": "Front-end",
+    "backendTitle": "Backend",
     "workExperience": "Work Experience",
     "experience_1_role": "Java Backend Developer",
     "experience_1_meta": "Personal Projects | Mar 2024 – Present",
@@ -47,6 +50,11 @@
     "task_scheduler_desc": "Microservices-based application for task scheduling and management, featuring asynchronous inter-service communication and distributed architecture.",
     "dscatalog_name": "DSCatalog",
     "dscatalog_desc": "Product catalog application with automated and unit tests covering all business rules, featuring full CRUD operations and layered architecture.",
+    "dscommerce_name": "API REST DScommerce",
+    "view_code": "View Code",
+    "api_clientes_name": "Client API",
+    "api_clientes_desc": "REST API for client management built with Java and Spring Boot, with full CRUD operations, validations, exception handling, and layered architecture.",
+    "view_github": "View on GitHub →",
     "coming_soon": "Coming soon on GitHub"
   },
 
@@ -59,6 +67,8 @@
     "message_placeholder": "Tell me about your project...",
     "send": "✈️ Send Message",
     "success": "Message sent successfully! 🚀",
+    "email_placeholder": "your@email.com",
+    "details": "Details:",
     "error": "Error sending. Please try again."
   }
 }

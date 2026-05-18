@@ -10,7 +10,8 @@
     "title": "Olá, eu sou o Junior",
     "description": "Desenvolvedor Backend Java | Spring Boot\n\nConstruo APIs REST seguras e escaláveis com Spring Security (JWT/OAuth2), JPA e PostgreSQL, aplicando Clean Architecture e SOLID. Stack secundária em Python (FastAPI, Flask) para automações e integrações.",
     "viewProjects": "Ver Projetos",
-    "contact": "Fale Comigo"
+    "contact": "Fale Comigo",
+    "downloadCV": "Baixar CV"
   },
 
   "about": {
@@ -20,6 +21,8 @@
     "subtitle_1": "Tecnólogo em Análise e Desenvolvimento de Sistemas — UNINTER (2024–2026)",
     "subtitle_2": "Java Spring Professional — DevSuperior (120h): Spring Boot, JPA, APIs REST, Spring Security, Docker e CI/CD",
     "subtitle_3": "Formação Backend Python: FastAPI, Flask, PostgreSQL, MongoDB, Redis e RabbitMQ",
+    "frontendTitle": "Front-end",
+    "backendTitle": "Backend",
     "workExperience": "Experiência Profissional",
     "experience_1_role": "Desenvolvedor Backend Java",
     "experience_1_meta": "Projetos Próprios | mar 2024 – atual",
@@ -47,6 +50,11 @@
     "task_scheduler_desc": "Aplicação baseada em microsserviços para agendamento e gerenciamento de tarefas, com comunicação assíncrona entre serviços e arquitetura distribuída.",
     "dscatalog_name": "DSCatalog",
     "dscatalog_desc": "Aplicação de catálogo de produtos com testes automatizados e unitários cobrindo todas as regras de negócio, com CRUD completo e arquitetura em camadas.",
+    "dscommerce_name": "API REST DScommerce",
+    "view_code": "Ver Código",
+    "api_clientes_name": "API de Clientes",
+    "api_clientes_desc": "API REST para gerenciamento de clientes desenvolvida com Java e Spring Boot, com CRUD completo, validações, tratamento de exceções e arquitetura em camadas.",
+    "view_github": "Ver no GitHub →",
     "coming_soon": "Em breve no GitHub"
   },
 
@@ -59,6 +67,8 @@
     "message_placeholder": "Me conte sobre seu projeto...",
     "send": "✈️ Enviar Mensagem",
     "success": "Mensagem enviada com sucesso! 🚀",
+    "email_placeholder": "seu@email.com",
+    "details": "Detalhes:",
     "error": "Erro ao enviar. Por favor, tente novamente."
   }
 }
