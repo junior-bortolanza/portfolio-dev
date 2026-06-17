@@ -5,7 +5,6 @@
     "projects": "Projetos",
     "contact": "Contato"
   },
-
   "hero": {
     "title": "Olá, eu sou o Junior",
     "description": "Desenvolvedor Backend Java | Spring Boot\n\nConstruo APIs REST seguras e escaláveis com Spring Security (JWT/OAuth2), JPA e PostgreSQL, aplicando Clean Architecture e SOLID. Stack secundária em Python (FastAPI, Flask) para automações e integrações.",
@@ -13,7 +12,6 @@
     "contact": "Fale Comigo",
     "downloadCV": "Baixar CV"
   },
-
   "about": {
     "title": "Sobre Mim",
     "text": "Desenvolvedor Back-End com experiência prática na criação de aplicações utilizando Java (Spring Boot) e Python (FastAPI, Flask). Experiência no desenvolvimento de APIs REST, modelagem com JPA, implementação de segurança com Spring Security, OAuth2 e JWT, além da aplicação de Clean Architecture e princípios SOLID. Atuação anterior como Analista de Sistemas, com experiência em automações, integrações via API e implementação de CRM, incluindo projetos internacionais. Focado em construir sistemas back-end escaláveis, sustentáveis e bem estruturados.",
@@ -23,6 +21,7 @@
     "subtitle_3": "Formação Backend Python: FastAPI, Flask, PostgreSQL, MongoDB, Redis e RabbitMQ",
     "frontendTitle": "Front-end",
     "backendTitle": "Backend",
+    "devopsTitle": "DevOps",
     "workExperience": "Experiência Profissional",
     "experience_1_role": "Desenvolvedor Backend Java",
     "experience_1_meta": "Projetos Próprios | mar 2024 – atual",
@@ -40,7 +39,6 @@
     "experience_5_meta": "Komanda F5 | dez 2024 – abr 2025",
     "experience_5_desc": "Participou da implementação e configuração de CRM, incluindo criação de pipelines, automações e chatbots. Apoiou integrações via API, documentou processos e realizou onboarding técnico de clientes. Desenvolveu um case técnico apresentado à liderança."
   },
-
   "projects": {
     "title": "Projetos",
     "featured_project": "⭐ Projeto destaque",
@@ -57,7 +55,6 @@
     "view_github": "Ver no GitHub →",
     "coming_soon": "Em breve no GitHub"
   },
-
   "contact": {
     "subtitle": "Vamos transformar sua ideia em realidade?",
     "name_label": "Nome",

@@ -3,17 +3,21 @@ import { useTranslation } from "react-i18next";
 
 export const About = () => {
   const { t } = useTranslation();
-  const frontendSkills = ["HTML", "CSS", "React"];
+  const frontendSkills = ["HTML", "CSS", "React", "Angular", "Typescript"];
 
   const backendSkills = [
-    "Python",
     "Java",
-    "AWS",
-    "Docker",
-    "MongoDB",
     "Spring Boot",
-    "FastAPI",
-    "API Restfull"
+    "Microsserviços",
+    "MongoDB",
+    " API RESTful",
+    "SOLID",
+    "Clean Architecture"
+  ];
+
+  const DevOps = [
+    "Docker",
+    "AWS"
   ];
 
   return (
@@ -32,10 +36,10 @@ export const About = () => {
 
             <div>
               <p className="text-gray-300 mb-8 max-w-lg"> {t("about.text")}
-               
-                   
+
+
               </p>
-            
+
               {/* FRONTEND */}
               <div className="mb-6">
                 <h3 className="text-xl font-bold mb-3">{t("about.frontendTitle")}</h3>
@@ -53,7 +57,7 @@ export const About = () => {
               </div>
 
               {/* BACKEND */}
-              <div>
+              <div className="mb-6">
                 <h3 className="text-xl font-bold mb-3">{t("about.backendTitle")}</h3>
                 <div className="flex flex-wrap gap-2">
                   {backendSkills.map((tech) => (
@@ -67,6 +71,22 @@ export const About = () => {
                   ))}
                 </div>
               </div>
+
+              <div>
+                <h3 className="text-xl font-bold mb-3">{t("about.devopsTitle")}</h3>
+                <div className="flex flex-wrap gap-2">
+                  {DevOps.map((tech) => (
+                    <span
+                      key={tech}
+                      className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm
+                                 hover:bg-blue-500/20 transition"
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              </div>
+
             </div>
 
             {/* EDUCATION + WORK */}
@@ -84,8 +104,8 @@ export const About = () => {
                     <b>{t("about.subtitle_2")}</b>
                   </li>
 
-                  <li> 
-                    <b>{t("about.subtitle_3")}</b> 
+                  <li>
+                    <b>{t("about.subtitle_3")}</b>
                   </li>
                 </ul>
               </div>

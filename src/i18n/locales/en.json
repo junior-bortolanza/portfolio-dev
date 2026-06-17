@@ -5,7 +5,6 @@
     "projects": "Projects",
     "contact": "Contact"
   },
-
   "hero": {
     "title": "Hi, I'm Junior",
     "description": "Java Backend Developer | Spring Boot\n\nI build secure and scalable REST APIs with Spring Security (JWT/OAuth2), JPA, and PostgreSQL, applying Clean Architecture and SOLID principles. Secondary stack in Python (FastAPI, Flask) for automations and integrations.",
@@ -13,7 +12,6 @@
     "contact": "Contact Me",
     "downloadCV": "Download CV"
   },
-
   "about": {
     "title": "About Me",
     "text": "Back-End Developer with hands-on experience building personal and real-world projects using Python (FastAPI) and Java (Spring Boot). I have developed 19 REST endpoints, implemented multiple MongoDB CRUD operations, and applied Clean Architecture, SOLID principles, and Repository Pattern. Experienced in entity modeling, transactions, pagination, DTOs, validation, and automated testing. Focused on delivering scalable, maintainable backend systems and continuously evolving as part of high-performance engineering teams.",
@@ -23,6 +21,7 @@
     "subtitle_3": "Python Training Course: Flask, MVC architecture, JWT authentication, MongoDB, Redis, RabbitMQ, real-time communication, and backend best practices.",
     "frontendTitle": "Front-end",
     "backendTitle": "Backend",
+    "devopsTitle": "DevOps",
     "workExperience": "Work Experience",
     "experience_1_role": "Java Backend Developer",
     "experience_1_meta": "Personal Projects | Mar 2024 – Present",
@@ -40,7 +39,6 @@
     "experience_5_meta": "Komanda F5 | Dec 2024 – Apr 2025",
     "experience_5_desc": "Participated in CRM implementation and configuration, including pipelines, automations, and chatbots. Supported API integrations, documented processes, and conducted client onboarding. Developed a technical case presented to leadership."
   },
-
   "projects": {
     "title": "Projects",
     "featured_project": "⭐ Featured Project",
@@ -57,7 +55,6 @@
     "view_github": "View on GitHub →",
     "coming_soon": "Coming soon on GitHub"
   },
-
   "contact": {
     "subtitle": "Shall we turn your idea into reality?",
     "name_label": "Name",
