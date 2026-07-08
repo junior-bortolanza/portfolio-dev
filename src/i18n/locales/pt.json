@@ -7,48 +7,117 @@
   },
   "hero": {
     "title": "Olá, eu sou o Junior",
-    "description": "Desenvolvedor Backend Java | Spring Boot\n\nConstruo APIs REST seguras e escaláveis com Spring Security (JWT/OAuth2), JPA e PostgreSQL, aplicando Clean Architecture e SOLID. Stack secundária em Python (FastAPI, Flask) para automações e integrações.",
+    "description": "Desenvolvedor Backend Java | Spring Boot, Microsserviços, APIs REST, Angular\n\nConstruo APIs RESTful, microsserviços e integrações com Java 17, Spring Boot, Spring Security, JWT/OAuth2, PostgreSQL, MongoDB e Docker, aplicando Clean Code, SOLID, testes automatizados e boas práticas de qualidade.",
     "viewProjects": "Ver Projetos",
     "contact": "Fale Comigo",
     "downloadCV": "Baixar CV"
   },
   "about": {
     "title": "Sobre Mim",
-    "text": "Desenvolvedor Back-End com experiência prática na criação de aplicações utilizando Java (Spring Boot) e Python (FastAPI, Flask). Experiência no desenvolvimento de APIs REST, modelagem com JPA, implementação de segurança com Spring Security, OAuth2 e JWT, além da aplicação de Clean Architecture e princípios SOLID. Atuação anterior como Analista de Sistemas, com experiência em automações, integrações via API e implementação de CRM, incluindo projetos internacionais. Focado em construir sistemas back-end escaláveis, sustentáveis e bem estruturados.",
-    "titleEducation": "Educação",
-    "subtitle_1": "Tecnólogo em Análise e Desenvolvimento de Sistemas — UNINTER (2024–2026)",
-    "subtitle_2": "Java Spring Professional — DevSuperior (120h): Spring Boot, JPA, APIs REST, Spring Security, Docker e CI/CD",
-    "subtitle_3": "Formação Backend Python: FastAPI, Flask, PostgreSQL, MongoDB, Redis e RabbitMQ",
+    "text": "Sou Desenvolvedor Backend Java com 2,5 anos de experiência prática no desenvolvimento de aplicações utilizando Java, Spring Boot, PostgreSQL, MongoDB e Docker. Durante minha jornada, desenvolvi mais de 5 aplicações completas, incluindo projetos de e-commerce, APIs REST e arquiteturas baseadas em microsserviços.\n\nCriei um projeto BFF integrado a 4 microsserviços utilizando OpenFeign, implementei mais de 10 APIs RESTful com regras de negócio e persistência de dados, modelei mais de 5 bancos relacionais e NoSQL e documentei projetos completos com Swagger/OpenAPI. Busco contribuir com soluções escaláveis, seguras e de alta qualidade, aplicando Clean Code, SOLID e arquitetura em camadas.",
+    "titleEducation": "Formação e Idiomas",
+    "educationItems": [
+      "Tecnólogo em Análise e Desenvolvimento de Sistemas — UNINTER (2024–2026)",
+      "Pós-graduação em Engenharia de Software em Java e IA Aplicada — UNIPDS (2026–2027)",
+      "Bacharelado em Administração de Empresas — Universidade Paulista (2012–2017)",
+      "Java Spring Profissional/Dev — DevSuperior",
+      "Inglês avançado | Português fluente/nativo"
+    ],
     "frontendTitle": "Front-end",
     "backendTitle": "Backend",
-    "devopsTitle": "DevOps",
+    "architectureTitle": "Arquitetura, Dados e Mensageria",
+    "toolsTitle": "DevOps, Testes e Ferramentas",
     "workExperience": "Experiência Profissional",
-    "experience_1_role": "Desenvolvedor Backend Java",
-    "experience_1_meta": "Projetos Próprios | mar 2024 – atual",
-    "experience_1_desc": "Desenvolveu 13 endpoints REST com Spring Boot (CRUD, paginação e ordenação) e modelou 8+ entidades JPA com relacionamentos complexos. Implementou segurança com Spring Security, OAuth2 e JWT, aplicando arquitetura em camadas, DTOs e tratamento centralizado de exceções.",
-    "experience_2_role": "Desenvolvedor Backend Python",
-    "experience_2_meta": "Projetos Próprios | mai 2024 – atual",
-    "experience_2_desc": "Desenvolveu 4+ aplicações com Flask e FastAPI, totalizando 30+ endpoints REST com regras de negócio e validações. Aplicou Clean Architecture e SOLID, gerenciou bancos SQLite e PostgreSQL, e implementou cache com Redis para otimização de performance.",
-    "experience_3_role": "Analista de Sistemas Sênior",
-    "experience_3_meta": "Komanda F5 | jan 2026 – mar 2026 | Dubai (Remoto)",
-    "experience_3_desc": "Liderou análises técnicas e implementações de CRM para clientes internacionais, arquitetando automações, integrações via API e workflows. Atuou como referência técnica para analistas e clientes, apoiando pré-vendas SaaS. Resultados: +20% em eficiência comercial e −10% no tempo operacional.",
-    "experience_4_role": "Analista de Sistemas Pleno",
-    "experience_4_meta": "Komanda F5 | abr 2025 – jan 2026",
-    "experience_4_desc": "Atuou consultivamente na implementação de CRM, configurando pipelines, automações e fluxos comerciais. Desenvolveu integrações entre sistemas via APIs e chatbots, apoiando projetos com WhatsApp API e Instagram. Realizou treinamentos e apresentações de soluções para clientes.",
-    "experience_5_role": "Analista de Sistemas Jr",
-    "experience_5_meta": "Komanda F5 | dez 2024 – abr 2025",
-    "experience_5_desc": "Participou da implementação e configuração de CRM, incluindo criação de pipelines, automações e chatbots. Apoiou integrações via API, documentou processos e realizou onboarding técnico de clientes. Desenvolveu um case técnico apresentado à liderança."
+    "experiences": [
+      {
+        "role": "Java Developer | Desenvolvedor Backend Java",
+        "meta": "Autônomo | mar 2024 – atualmente | 2 anos e 5 meses",
+        "desc": "Atuação atual no desenvolvimento de aplicações backend com Java, Spring Boot, arquitetura em camadas, APIs REST, microsserviços, bancos relacionais e NoSQL.",
+        "highlights": [
+          "Desenvolvi mais de 5 aplicações backend, incluindo e-commerce, APIs REST e arquiteturas baseadas em microsserviços.",
+          "Criei um projeto BFF integrado a 4 microsserviços, utilizando OpenFeign para comunicação entre serviços.",
+          "Implementei mais de 10 APIs RESTful com regras de negócio, validações, tratamento global de exceções e persistência de dados.",
+          "Modelei mais de 5 bancos com PostgreSQL, MongoDB, Spring Data JPA e Hibernate.",
+          "Usei Swagger/OpenAPI, Docker, GitHub Actions, JUnit e Mockito para documentação, padronização, CI/CD e qualidade."
+        ]
+      },
+      {
+        "role": "Senior Systems Analyst | Senior Business Systems Analyst — Freelance",
+        "meta": "Komanda F5 | Dubai, Emirados Árabes Unidos / Remoto | jan 2026 – mar 2026 | 3 meses",
+        "desc": "Liderei análises técnicas e desenho de soluções para projetos de CRM, conectando necessidades de negócio a soluções escaláveis com foco em automação, integrações e melhoria de processos.",
+        "highlights": [
+          "Conduzi levantamento de requisitos, definição de soluções técnicas e análise de documentações de APIs.",
+          "Atuei na arquitetura e implementação de automações e integrações entre sistemas, incluindo sincronização de dados entre plataformas.",
+          "Apoiei projetos com clientes internacionais, pré-venda SaaS e resolução de problemas técnicos com analistas e clientes.",
+          "Contribuí para aumento médio de 20% na eficiência comercial e redução de cerca de 10% no tempo operacional."
+        ]
+      },
+      {
+        "role": "Analista de Sistemas Pleno | Analista de Sistemas de Negócios",
+        "meta": "Komanda F5 | abr 2025 – jan 2026 | 10 meses",
+        "desc": "Atuei de forma consultiva na análise de processos e implementação de soluções em CRM, com foco em automação, integração de sistemas e melhoria da operação comercial dos clientes.",
+        "highlights": [
+          "Conduzi reuniões de discovery técnico e traduzi necessidades de negócio em soluções sistêmicas.",
+          "Configurei pipelines comerciais, automações e fluxos de trabalho dentro do CRM.",
+          "Desenvolvi integrações com base na análise de documentação técnica e APIs, incluindo WhatsApp API e Instagram.",
+          "Criei chatbots, apoiei apresentações de soluções e participei de treinamentos de novos analistas."
+        ]
+      },
+      {
+        "role": "Analista de Sistema Jr",
+        "meta": "Komanda F5 | dez 2024 – abr 2025 | 5 meses",
+        "desc": "Participei da implementação de soluções de CRM e automações, com foco em configuração de sistemas, análise de requisitos e suporte técnico aos clientes.",
+        "highlights": [
+          "Apoiei levantamento de requisitos, estruturação inicial de soluções e configuração de contas, pipelines e automações.",
+          "Desenvolvi chatbots e fluxos automatizados com base na lógica de interação definida com clientes.",
+          "Apoiei integrações via APIs, documentação de processos, onboarding técnico e suporte durante o uso das soluções.",
+          "Desenvolvi um case técnico apresentado à liderança no período inicial da empresa."
+        ]
+      },
+      {
+        "role": "Transportation Operations Coordinator | MB Transportes",
+        "meta": "Sorocaba e Região, Brasil | jul 2018 – jul 2023 | 5 anos e 1 mês",
+        "desc": "Coordenei operações de transporte de produtos químicos com foco em eficiência operacional, análise de dados, implantação de sistemas, automação de rotinas e melhoria de processos.",
+        "highlights": [
+          "Otimizei rotas e estratégias logísticas, contribuindo para redução de 18% nos custos operacionais.",
+          "Implementei sistemas de rastreamento em tempo real, aumentando em 25% a visibilidade e segurança das operações.",
+          "Atuei como usuário-chave na implantação de TMS e WMS, da análise inicial ao go-live, incluindo acessos e treinamento de usuários.",
+          "Conduzi análises com dados operacionais para identificar gargalos em entregas, manutenção preventiva e controle de frota.",
+          "Integrei áreas comerciais, operacionais, financeiras e de frota para alinhar tecnologia, operação e resultados."
+        ]
+      },
+      {
+        "role": "Intercâmbio Acadêmico | Aperfeiçoamento em Inglês",
+        "meta": "Holmes Institute, Australia | Sydney, NSW | dez 2017 – jun 2018 | 7 meses",
+        "desc": "Realizei intercâmbio internacional com foco no aprimoramento do inglês e desenvolvimento intercultural, alcançando nível avançado de comunicação.",
+        "highlights": [
+          "Aperfeiçoei conversação, leitura e escrita em inglês em ambiente acadêmico internacional.",
+          "Desenvolvi comunicação em contextos multiculturais e ampliei minha adaptação a ambientes globais."
+        ]
+      },
+      {
+        "role": "Assistente de Help Desk | Help Desk Assistant",
+        "meta": "AVASO Technology Solutions | Sydney, Nova Gales do Sul, Austrália | fev 2018 – mai 2018 | 4 meses",
+        "desc": "Prestei suporte técnico a clientes em Sydney, com foco em resolução de incidentes de hardware, software e infraestrutura de rede.",
+        "highlights": [
+          "Atuei com instalação, manutenção e substituição de componentes de computadores, além de suporte a software.",
+          "Realizei atividades de infraestrutura de rede, incluindo roteadores, switches, cabeamento estruturado, servidores e telefones Cisco.",
+          "Coordenei atendimentos com clientes e equipes remotas, acompanhando SLAs e relatórios de atendimento.",
+          "Fortaleci minha base em diagnóstico de problemas e ambientes corporativos de TI."
+        ]
+      }
+    ]
   },
   "projects": {
     "title": "Projetos",
-    "featured_project": "⭐ Projeto destaque",
-    "title_featured_project": "API RESTful de e-commerce desenvolvida com Java e Spring Boot, com autenticação JWT, CRUD de produtos e pedidos, arquitetura em camadas e validação estruturada.",
-    "in_progress": "🚧 Em Desenvolvimento",
-    "task_scheduler_name": "BFF + Microsserviços",
-    "task_scheduler_desc": "Arquitetura BFF com 3 microsserviços para agendamento de tarefas, comunicação síncrona via Feign Client, PostgreSQL, MongoDB e containerização com Docker.",
+    "featured_project": "Projeto destaque",
+    "title_featured_project": "API REST para e-commerce desenvolvida com Spring Boot, CRUD completo, paginação, modelagem relacional com Hibernate, autenticação com Spring Security, OAuth2 e JWT, além de documentação com Swagger/OpenAPI.",
+    "in_progress": "Em Desenvolvimento",
+    "task_scheduler_name": "Task Scheduler",
+    "task_scheduler_desc": "Sistema baseado em microsserviços com Java 17, Spring Boot e Angular, usando BFF, serviços de usuários, agendador e notificação, autenticação JWT/OAuth2, RabbitMQ, OpenFeign, PostgreSQL, MongoDB, Docker Compose, testes e Swagger/OpenAPI.",
     "dscatalog_name": "DSCatalog",
-    "dscatalog_desc": "Aplicação de catálogo de produtos com testes automatizados e unitários cobrindo todas as regras de negócio, com CRUD completo e arquitetura em camadas.",
-    "dscommerce_name": "API REST DScommerce",
+    "dscatalog_desc": "Aplicação de catálogo de produtos com testes automatizados e unitários cobrindo regras de negócio, CRUD completo e arquitetura em camadas.",
+    "dscommerce_name": "DSCommerce",
     "view_code": "Ver Código",
     "api_clientes_name": "API de Clientes",
     "api_clientes_desc": "API REST para gerenciamento de clientes desenvolvida com Java e Spring Boot, com CRUD completo, validações, tratamento de exceções e arquitetura em camadas.",
@@ -62,8 +131,8 @@
     "email_label": "Email",
     "message_label": "Mensagem",
     "message_placeholder": "Me conte sobre seu projeto...",
-    "send": "✈️ Enviar Mensagem",
-    "success": "Mensagem enviada com sucesso! 🚀",
+    "send": "Enviar Mensagem",
+    "success": "Mensagem enviada com sucesso!",
     "email_placeholder": "seu@email.com",
     "details": "Detalhes:",
     "error": "Erro ao enviar. Por favor, tente novamente."

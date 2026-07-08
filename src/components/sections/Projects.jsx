@@ -2,7 +2,29 @@ import { RevealOnScroll } from "../RevealOnScroll";
 import { useTranslation } from "react-i18next";
 
 export const Projects = () => {
-  const { t } = useTranslation(); 
+  const { t } = useTranslation();
+
+  const dscommerceTechs = [
+    "Java",
+    "Spring Boot",
+    "Spring Security",
+    "OAuth2",
+    "JWT",
+    "Hibernate",
+    "Swagger/OpenAPI",
+  ];
+
+  const taskSchedulerTechs = [
+    "Java 17",
+    "Spring Boot",
+    "Angular",
+    "RabbitMQ",
+    "Feign Client",
+    "PostgreSQL",
+    "MongoDB",
+    "Docker Compose",
+  ];
+
   return (
     <section
       id="projects"
@@ -20,7 +42,6 @@ export const Projects = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10
                             bg-white/5 rounded-2xl p-8
                             hover:-translate-y-1 transition-all">
-
               <div>
                 <span className="text-sm text-blue-400">{t("projects.featured_project")}</span>
 
@@ -33,7 +54,7 @@ export const Projects = () => {
                 </p>
 
                 <div className="flex flex-wrap gap-2 mb-6">
-                  {["Java 21", "Spring Boot", "Spring Data JPA", "Docker", "PostgreSQL", "JWT Authentication", "Maven"].map((tech) => (
+                  {dscommerceTechs.map((tech) => (
                     <span
                       key={tech}
                       className="bg-blue-500/10 text-blue-400
@@ -55,29 +76,22 @@ export const Projects = () => {
                 </div>
               </div>
 
-              {/* IMAGEM */}
               <div className="flex justify-center items-center">
                 <img
                   src="/swagger_dscommerce.png"
-                  alt="Featured Project"
+                  alt="Swagger DSCommerce"
                   className="rounded-xl shadow-2xl"
                 />
               </div>
-
             </div>
           </div>
 
-          {/* ========================= */}
-          {/* GRID DE PROJETOS */}
-          {/* ========================= */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-
-            {/* CARD 1 */}
             <div className="bg-white/5 rounded-2xl p-6
                             hover:-translate-y-1 transition-all">
               <img
                 src="/api_clients.png"
-                alt="Task Manager Pro"
+                alt="API de Clientes"
                 className="rounded-xl mb-4"
               />
 
@@ -88,28 +102,26 @@ export const Projects = () => {
               </p>
 
               <div className="flex flex-wrap gap-2 mb-4">
-                <span className="bg-blue-500/10 text-blue-400 px-2 py-1 rounded-full text-xs">
-                  Java
-                </span>
-                <span className="bg-blue-500/10 text-blue-400 px-2 py-1 rounded-full text-xs">
-                  Spring Boot
-                </span>
-                <span className="bg-blue-500/10 text-blue-400 px-2 py-1 rounded-full text-xs">
-                  PostgreSQL
-                </span>
+                {["Java", "Spring Boot", "PostgreSQL"].map((tech) => (
+                  <span key={tech} className="bg-blue-500/10 text-blue-400 px-2 py-1 rounded-full text-xs">
+                    {tech}
+                  </span>
+                ))}
               </div>
 
               <a
                 href="https://github.com/junior-bortolanza/clientes"
-                 className="text-blue-400 text-sm">{t("projects.view_github")}</a>
+                className="text-blue-400 text-sm"
+              >
+                {t("projects.view_github")}
+              </a>
             </div>
 
-            {/* CARD 2 - BFF + Microsserviços */}
             <div className="bg-white/5 rounded-2xl p-6
                             hover:-translate-y-1 transition-all">
               <div className="flex items-center mb-4">
-                <div className="w-12 h-12 rounded-xl bg-blue-500/10 flex items-center justify-center text-2xl">
-                  🗓️
+                <div className="w-12 h-12 rounded-xl bg-blue-500/10 flex items-center justify-center text-sm font-bold text-blue-400">
+                  TS
                 </div>
               </div>
 
@@ -120,7 +132,7 @@ export const Projects = () => {
               </p>
 
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Java", "Spring Boot", "Feign Client", "PostgreSQL", "MongoDB", "Docker"].map((tech) => (
+                {taskSchedulerTechs.map((tech) => (
                   <span key={tech} className="bg-blue-500/10 text-blue-400 px-2 py-1 rounded-full text-xs">
                     {tech}
                   </span>
@@ -129,15 +141,17 @@ export const Projects = () => {
 
               <a
                 href="https://github.com/junior-bortolanza/bff-task-scheduler"
-                className="text-blue-400 text-sm">{t("projects.view_github")}</a>
+                className="text-blue-400 text-sm"
+              >
+                {t("projects.view_github")}
+              </a>
             </div>
 
-            {/* CARD 3 - DSCatalog */}
             <div className="bg-white/5 rounded-2xl p-6
                             hover:-translate-y-1 transition-all">
               <div className="flex items-center justify-between mb-4">
-                <div className="w-12 h-12 rounded-xl bg-blue-500/10 flex items-center justify-center text-2xl">
-                  🛍️
+                <div className="w-12 h-12 rounded-xl bg-blue-500/10 flex items-center justify-center text-sm font-bold text-blue-400">
+                  DS
                 </div>
                 <span className="text-xs font-semibold text-amber-400 bg-amber-400/10 px-3 py-1 rounded-full">
                   {t("projects.in_progress")}
@@ -160,7 +174,6 @@ export const Projects = () => {
 
               <span className="text-gray-500 text-sm">{t("projects.coming_soon")}</span>
             </div>
-
           </div>
         </div>
       </RevealOnScroll>
